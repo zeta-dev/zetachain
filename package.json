@@ -59,5 +59,6 @@
     "grunt-macreload": "*",
     "grunt-css": "~0.5.4",
     "grunt-markdown": "~0.5.0"
+    "microtime" : "*"
   }
 }
