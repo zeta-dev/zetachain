@@ -1,0 +1,73 @@
+/* Primary Color */
+.btn-primary,
+.navbar-default,
+.txvalues-primary,
+.progress-bar-info { background-color: #057b87; }
+
+/* Navbar */
+.navbar-form .form-control { background-color: #04646d; }
+
+.navbar-default .navbar-nav>li>a { color: #d5eef2; }
+
+.navbar-default .navbar-nav>li>a:hover,
+.navbar-default .navbar-nav>.active>a:hover { color: #077c8a; }
+
+#search::-webkit-input-placeholder { color: #7cb9bd; }
+#search::-moz-placeholder { color: #7cb9bd; }
+
+.status { background-color: #1e3848; }
+
+/* Highlight */
+a.v_highlight_more,
+.table-hover>tbody>tr:hover>td,
+.table-hover>tbody>tr:hover>th { background-color: #f1f6f7; }
+
+#ngProgress,
+.navbar-default .navbar-nav>.active>a,
+.navbar-default .navbar-nav>.active>a:focus { background-color: #214d5c!important; }
+
+/* Logo */
+.navbar-default .navbar-brand {
+  padding: 2px 15px 0;
+  height: auto!important
+}
+
+/* Alert */
+.text-success,
+.alert-success,
+.list-group-item-success,
+a.list-group-item-success,
+a.list-group-item-success:hover,
+a.list-group-item-success:focus,
+.panel-success>.panel-heading,
+.has-success .help-block,
+.has-success .control-label,
+.has-success .radio,
+.has-success .checkbox,
+.has-success .radio-inline,
+.has-success .checkbox-inline,
+.has-success .form-control-feedback { color: #3c5b76; }
+
+.has-success .form-control { border-color: #3c5b76; }
+
+.has-success .input-group-addon {
+  color: #3c5b76;
+  border-color: #3c5b76;
+  background-color: #dff0d8;
+}
+
+a.list-group-item-success.active,a.list-group-item-success.active:hover,a.list-group-item-success.active:focus {
+  background-color: #3c5b76;
+  border-color: #3c5b76;
+}
+
+.block-id { background-color: #214d5c; }
+
+/* Button */
+.btn-primary { border: 2px solid #326372; }
+
+.btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .open .dropdown-toggle.btn-primary, .btn-success:hover, .btn-success:focus, .btn-success:active, .btn-success.active, .open .dropdown-toggle.btn-success, .btn-danger:hover, .btn-danger:focus, .btn-danger:active, .btn-danger.active, .open .dropdown-toggle.btn-danger {
+  background-color: #0a8e99;
+  border-color: #0b778a;
+  color: #D5EEF2;
+}
