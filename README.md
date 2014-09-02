@@ -1,12 +1,11 @@
-# *insight*
+# *zetachain*
 
-*insight* is an open-source bitcoin blockchain explorer with complete REST
+*zetachain* is an open-source zetacoin blockchain explorer with complete REST
 and websocket APIs. Insight runs in NodeJS, uses AngularJS for the
 front-end and LevelDB for storage.
 
-Check some screenshots and more details at [insight's project homepage](http://insight.is/).
 
-*Insight* project is now splitted in two repositories. One for the [API](https://github.com/bitpay/insight-api) and for the front-end. This repository is for the front-end, which will install the API as a NPM dependency.
+*Insight* project is now splitted in two repositories. One for the [API](https://github.com/zbad405/zetachain-api) and for the front-end. This repository is for the front-end, which will install the API as a NPM dependency.
 
 ## Prerequisites
 
@@ -19,33 +18,33 @@ Check some screenshots and more details at [insight's project homepage](http://i
 
   To install Insight, clone the main repository:
 
-    $ git clone https://github.com/bitpay/insight.git && cd insight
+    $ git clone https://github.com/zbad405/zetachain.git && cd zetachain
 
   Install dependencies:
 
     $ npm install
-    
+
   Run the main application:
 
     $ npm start
-    
+
   Then open a browser and go to:
 
     http://localhost:3001
 
-  If *insight* reports problems connecting to **bitcoind** please check the CONFIGURATION section of 
-  [insight-api README](https://github.com/bitpay/insight-api/blob/master/README.md). To set the 
+  If *zetachain* reports problems connecting to **zetacoind** please check the CONFIGURATION section of 
+  [zetachain-api README](https://github.com/zbad405/zetachain-api/blob/master/README.md). To set the
   environment variables run something like:
-  
+
      $ INSIGHT_NETWORK=livenet BITCOIND_USER=user BITCOIND_PASS=pass INSIGHT_PUBLIC_PATH=public  npm start
 
 
   Please note that the app will need to sync its internal database
   with the blockchain state, which may take some time. You can check
   sync progress from within the web interface. More details about that process
-  on [insight-api README](https://github.com/bitpay/insight-api/blob/master/README.md). 
-  
-  
+  on [zetachain-api README](https://github.com/zbad405/zetachain-api/blob/master/README.md).
+
+
 ## Nginx Setup
 
 To use Nginx as a reverse proxy for Insight, use the following base [configuration](https://gist.github.com/matiu/bdd5e55ff0ad90b54261)
@@ -53,7 +52,7 @@ To use Nginx as a reverse proxy for Insight, use the following base [configurati
 
 ## Development
 
-To run insight locally for development mode:
+To run zetachain locally for development mode:
 
 Install bower dependencies:
 
@@ -69,18 +68,18 @@ There is a convinent Gruntfile.js for automation during editing the code
 
 
 
-In case you are developing *insight* and *insight-api* toghether, you can do the following:
+In case you are developing *zetachain* and *zetachain-api* together, you can do the following:
 
-* Install insight and insight-api on the same path ($IROOT)
+* Install zetachain and zetachain-api on the same path ($IROOT)
 ```
   $ cd $IROOT/insight
   $ grunt
 ```
 in other terminal:
 ```
-  $ cd $IROOT/insight-api 
+  $ cd $IROOT/insight-api
   $ ln -s ../insight/public
-  $ INSIGHT_PUBLIC_PATH=public node insight.js 
+  $ INSIGHT_PUBLIC_PATH=public node insight.js
 ```
 
 
@@ -92,11 +91,11 @@ at insight-api's home path (edit the path according your setup).
 
 ## Note
 
-For more details about the *insight API* configs and end-point, just go to [insight API github repository](https://github.com/bitpay/insight-api) or read the [documentation](https://github.com/bitpay/insight-api/blob/master/README.md)
+For more details about the *zetachain API* configs and end-point, just go to [zetachain API github repository](https://github.com/zbad405/zetachain-api) or read the [documentation](https://github.com/zbad405/zetachain-api/blob/master/README.md)
 
 ## Contribute
 
-Contributions and suggestions are welcomed at [insight github repository](https://github.com/bitpay/insight).
+Contributions and suggestions are welcomed at [zetachain github repository](https://github.com/zbad405/zetachain).
 
 
 ## License
