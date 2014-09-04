@@ -1,5 +1,8 @@
 # *zetachain*
 
+*Note:*
+Zetachain is in beta, more updates will be performed regularly and will be released in the coming weeks. 
+
 *zetachain* is an open-source zetacoin blockchain explorer with complete REST
 and websocket APIs. Insight runs in NodeJS, uses AngularJS for the
 front-end and LevelDB for storage.
@@ -32,7 +35,7 @@ front-end and LevelDB for storage.
 
     http://localhost:3001
 
-  If *zetachain* reports problems connecting to **zetacoind** please check the CONFIGURATION section of 
+  If *zetachain* reports problems connecting to **zetacoind** please check the CONFIGURATION section of
   [zetachain-api README](https://github.com/zbad405/zetachain-api/blob/master/README.md). To set the
   environment variables run something like:
 
